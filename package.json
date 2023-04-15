@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Swapnil-Singh-99.github.io",
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
@@ -13,6 +14,7 @@
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.12.0",
     "firebase": "9.19.1",
+    "gh-pages": "^5.0.0",
     "loader-utils": "3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
