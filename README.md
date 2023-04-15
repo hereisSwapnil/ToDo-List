@@ -3,7 +3,7 @@ To Do List App made with react. It uses firebase for user authentication and has
 
 ## Screenshots
 
-[![image.png](https://i.postimg.cc/sXxdH90X/image.png)](https://postimg.cc/xkw4cHQD)
+[![image-4.png](https://i.postimg.cc/PJmCNjb0/image-4.png)](https://postimg.cc/XBYjDtzg)
 
 [![image.png](https://i.postimg.cc/kgygkswF/image.png)](https://postimg.cc/HrVmMQqV)
 
