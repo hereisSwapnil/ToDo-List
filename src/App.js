@@ -12,8 +12,8 @@ class App extends Component {
         <Router>
           <Routes>
             {/* setting up routes */}
-            <Route path="ToDo-List/" element={<Login />} />
-            <Route path="ToDo-List/todo-page" element={<ToDoPage />} />
+            <Route path="" element={<Login />} />
+            <Route path="todo-page" element={<ToDoPage />} />
           </Routes>
         </Router>
       </div>
