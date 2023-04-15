@@ -30,7 +30,7 @@ export default function Login() {
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       if (user) {
-        navigate("ToDo-List/todo-page");
+        navigate("/todo-page");
       }
     });
   }, []);
@@ -49,7 +49,7 @@ export default function Login() {
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        navigate("ToDo-List/todo-page");
+        navigate("/todo-page");
       })
       .catch((err) => alert(err.message));
   };
@@ -67,7 +67,7 @@ export default function Login() {
       registerInformation.password
     )
       .then(() => {
-        navigate("ToDo-List/todo-page");
+        navigate("/todo-page");
       })
       .catch((err) => alert(err.message));
   };
@@ -76,7 +76,7 @@ export default function Login() {
   const SignInGoogle = () => {
     signInWithPopup(auth, googleAuthProvider)
       .then(() => {
-        navigate("ToDo-List/todo-page");
+        navigate("/todo-page");
       })
       .catch((err) => alert(err.message));
   };

@@ -43,7 +43,7 @@ export default function todoPage() {
           }
         });
       } else if (!user) {
-        navigate("/ToDo-List/");
+        navigate("/");
       }
     });
   }, []);
@@ -52,7 +52,7 @@ export default function todoPage() {
   const handleSignOut = () => {
     signOut(auth)
       .then(() => {
-        navigate("/ToDo-List/");
+        navigate("/");
       })
       .catch((err) => {
         alert(err.message);
