@@ -1,5 +1,11 @@
 # ToDo-List
 To Do List App made with react. It uses firebase for user authentication and has option to sign in with both EmailId/Password as well as Google Popup sign in.
+
+
+---
+
+It uses CRUD (Create, Read, Update, Delete) functionality from the firebase Database. it also has an auth feature using the firebase (SignInWithEmailIdAndPassword & SignInWithGooglePopup)
+<br>
 [Click here to go to my website](https://rainbow-empanada-3847ef.netlify.app/)
 
 ## Screenshots
